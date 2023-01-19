@@ -1,0 +1,18 @@
+strong{
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 16px;
+}
+
+.after-name{
+    margin-bottom: 1rem !important;
+}
+
+.skill{
+    border: 1px solid white;
+    padding: .6rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+}

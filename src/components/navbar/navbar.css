@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #2b2f32 !important;
+    padding:2rem 7.4rem !important;
+}
+
+li > a{
+    color: #69f1ac ;
+}
+
+li > a :hover{
+    color: #ffff !important;
+}

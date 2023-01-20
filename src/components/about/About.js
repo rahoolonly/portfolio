@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <div id="aboutme" className="ps-md-4 mt-4 container">
-      <div className="fs-2 mb-2"> About me</div>
+      <h1 className="fs-1 mb-2"> About me</h1>
       <hr className="w-50" />
       <p>
         Hello g, I'm <strong style={{ color: "white" }}>Rahool Only</strong>.
@@ -23,17 +23,17 @@ const About = () => {
         many things{" "}
       </p>
       <div className="mt-5">
-        <div className="fs-2">My Skills</div>
+        <div className="fs-1">My Skills</div>
         <hr className="w-50" />
-        <div className="row mt-3">
-          <div className=" text-center  col-2 skill">React js</div>
-          <div className=" text-center  col-2 skill">Node js</div>
-          <div className=" text-center  col-2 skill">Javascript</div>
+        <div className="row mt-5">
+          <div className="  col-3  col-md-2 skill">React js</div>
+          <div className=" col-3 col-md-2 skill">Node js</div>
+          <div className=" col-5 col-md-2 skill">Javascript</div>
         </div>
         <div className="row mt-3">
-          <div className=" text-center  col-2 skill">Bootstrap</div>
+          <div className=" col-5  col-2 skill">Bootstrap</div>
 
-          <div className=" text-center  col-2 skill">Git & GitHub</div>
+          <div className=" col-4  col-2 skill">Git & GitHub</div>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ const contact = () => {
   return (
     <div id="contact" className="container  ps-md-4 mt-5">
       <h2>Let's Connect</h2>
-      <p>
+      <p className="mb-5 mt-3">
         Being a self taught coder. I would love to work on a real world project
       </p>
 
@@ -33,12 +33,12 @@ const contact = () => {
       </div>
 
       <div class="btn-group me-2" role="group" aria-label="First group">
-        <button type="button" class="btn btn-outline-secondary">
+        <button type="button" class="fs-3 btn btn-outline-secondary">
           Send
         </button>
       </div>
 
-      <h3 className="mt-5">Thanks for connecting</h3>
+      <p className="mt-5">Thanks for connecting</p>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import proj1 from "../../images/Screenshot 2023-01-20 124812.png";
 const Project = () => {
   return (
     <div className="ps-md-4 project mt-5 container">
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card" style={{ width: "45rem" }}>
         <img src={proj1} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Typing Master</h5>

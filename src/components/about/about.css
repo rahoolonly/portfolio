@@ -3,7 +3,7 @@ strong{
 }
 
 p{
-    font-size: 16px;
+    font-size: 1.3rem;
 }
 
 .after-name{
@@ -15,4 +15,16 @@ p{
     padding: .6rem;
     margin-left: 1rem;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+    html{
+        font-size: 30% ;
+    }
+
+    #aboutme{
+        padding-left: 6rem ;
+        padding-right: 8rem;
+    }
 }

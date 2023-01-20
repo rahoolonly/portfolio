@@ -1,7 +1,12 @@
 @media screen and (max-width: 768px) {
-#contact{
-    padding-left: 6rem ;
-    padding-right: 7rem ;
-
+  #contact {
+    padding-left: 6rem  ;
+    padding-right: 7rem;
+  }
 }
+@media screen and (max-width: 576px) {
+  #contact {
+    padding-left: 6rem;
+    padding-right: 7rem;
+  }
 }

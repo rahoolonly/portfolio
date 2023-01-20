@@ -13,9 +13,14 @@ li > a :hover{
     color: #ffff !important;
 }
 
+@media screen and (min-width: 578px) and (max-width: 768px) {
+
+    .navbar{
+        padding: 2rem 0rem !important;
+    }
+  }
+
 @media screen and (max-width: 576px) {
-    
-    
     
     .navbar{
         padding:5rem 5rem !important;

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className=" first-half col-md-5 mt-5 ps-4">
+        <div className=" first-half col-md-5 mt-0 mt-md-5 ps-4">
           <div className="row">
             <div className=" text-center mb-3 col-4 main-line">
        Developer
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div id="profile" className="text-center col-md-5 ">
-          <img src={img} alt="" />
+          <img className="img-fluid" src={img} alt="" />
         </div>
       </div>
     </div>

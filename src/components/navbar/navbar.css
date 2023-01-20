@@ -1,7 +1,9 @@
 .navbar{
     background-color: #2b2f32 !important;
     padding:2rem 7.4rem !important;
+    position: relative;
 }
+
 
 li > a{
     color: #69f1ac ;
@@ -9,4 +11,13 @@ li > a{
 
 li > a :hover{
     color: #ffff !important;
+}
+
+@media screen and (max-width: 576px) {
+    
+    
+    
+    .navbar{
+        padding:5rem 5rem !important;
+    }
 }

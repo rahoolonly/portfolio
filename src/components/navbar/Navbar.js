@@ -9,8 +9,12 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link className="navbar-brand " to={"/"}>
-            {" "}
-            <img className="img-fluid" style={{ width: "150px" }} src={logo} alt="" />
+            <img
+              className="img-fluid"
+              style={{ width: "150px" }}
+              src={logo}
+              alt=""
+            />
           </Link>
           <button
             className="navbar-toggler"
@@ -24,7 +28,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="text-center navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="text-center navbar-nav mt-2 mt-md-0 ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link " aria-current="page" to={"/"}>
                   Home

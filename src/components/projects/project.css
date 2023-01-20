@@ -8,4 +8,18 @@ h5{
 
 .project{
     padding-left: 6rem;
+
+}
+
+@media screen and (max-width:576px) {
+
+    html{
+        font-size: 55%;
+    }
+
+    .project{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
 }

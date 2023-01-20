@@ -9,7 +9,7 @@ const contact = () => {
         Being a self taught coder. I would love to work on a real world project
       </p>
 
-      <div className="mb-3 w-50">
+      <div className="mb-3  ">
         <input
           type="name"
           className="form-control mb-3"
@@ -23,7 +23,7 @@ const contact = () => {
           placeholder="name@example.com"
         />
       </div>
-      <div className="mb-3 w-50">
+      <div className="mb-3">
         <textarea
           className="form-control"
           id="exampleFormControlTextarea1"
@@ -33,7 +33,7 @@ const contact = () => {
       </div>
 
       <div class="btn-group me-2" role="group" aria-label="First group">
-        <button type="button" class="fs-3 btn btn-outline-secondary">
+        <button type="button" class="btn btn-outline-secondary">
           Send
         </button>
       </div>

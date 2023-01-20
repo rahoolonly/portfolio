@@ -1,9 +1,9 @@
 strong{
-    font-size: 2.2rem;
+    font-size: 1.9rem;
 }
 
 p{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .after-name{
@@ -23,17 +23,21 @@ p{
 
 @media screen and (max-width:576px) {
   
+    strong{
+        font-size: 2.2rem;
+    }
+
     p{
         font-size: 2rem;
     }
 
-    .fs-1{
-        font-size: 3rem !important;
+    .fs-2{
+        font-size: 2.8rem !important;
     }
 
     .skill{
-        font-size: 2rem;
-        padding: 1rem 4rem ;
+        font-size: 1.5rem;
+        padding: 1rem 1rem ;
     }
     
     #aboutme{

@@ -19,7 +19,7 @@ const Home = () => {
             </h1>
           </div>
         </div>
-        <div id="profile" className="text-center col-md-5 ">
+        <div id="profile" className="text-center mb-5 col-md-5 ">
           <img className="img-fluid" src={img} alt="" />
         </div>
       </div>

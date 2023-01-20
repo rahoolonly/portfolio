@@ -1,8 +1,9 @@
 import React from "react";
+import './contact.css'
 
 const contact = () => {
   return (
-    <div className="container ps-4 mt-5">
+    <div id="contact" className="container  ps-md-4 mt-5">
       <h2>Let's Connect</h2>
       <p>
         Being a self taught coder. I would love to work on a real world project
